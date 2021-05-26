@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'a-website';
+  navbarOpen = false;
+  iactive = 'active';
+
+  toggleSideBar(){
+    this.navbarOpen = !this.navbarOpen;
+  }
+
+
 }

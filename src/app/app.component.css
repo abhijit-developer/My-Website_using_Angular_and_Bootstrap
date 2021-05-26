@@ -1,0 +1,57 @@
+a.nav-link.text-dark.font-italic.active{
+    background: -webkit-linear-gradient(to right, #f06e23, #f38cb3);
+    background: linear-gradient(to right, #f06e23, #f38cb3);
+    color: #f8f9fa;
+}
+a.nav-link.text-dark.font-italic:hover{
+    background: gainsboro
+}
+
+a.nav-link.text-dark.font-italic.active:hover{
+    background: -webkit-linear-gradient(to right, #f06e23, #f38cb3);
+    background: linear-gradient(to right, #f06e23, #f38cb3);
+    color: #f8f9fa;
+}
+
+.media-body{
+    background: -webkit-linear-gradient(to right, #f06e23, #f38cb3);
+    background: linear-gradient(to right, #f06e23, #f38cb3);
+}
+
+.main-div{
+    background: -webkit-linear-gradient(to right, #ebfa95, #4bfdd7);
+    background: linear-gradient(to right, #ebfa95, #4bfdd7);
+    min-height: 100vh;
+}
+
+#footer {
+    padding: 15px;
+    color: #f4f6fd;
+    font-size: 14px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 272px;
+    z-index: 9999;
+    background:gray;
+  }
+  
+  #footer .copyright {
+    text-align: center;
+  }
+  
+  #footer .credits {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 13px;
+    color: #eaebf0;
+  }
+  
+  @media (max-width: 1199px) {
+    #footer {
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+    }
+  }
+  
